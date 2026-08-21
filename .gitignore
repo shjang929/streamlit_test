@@ -1,0 +1,51 @@
+# --- Python 기본 ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# --- 가상환경 ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- 환경변수 파일 ---
+.env
+.env.*
+!.env.example
+
+# --- Streamlit ---
+.streamlit/
+.streamlit/secrets.toml
+
+# --- IDE / 에디터 ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS 생성 파일 ---
+.DS_Store
+Thumbs.db
+
+# --- 로그 / 캐시 ---
+*.log
+logs/
+.cache/
+*.sqlite3
+
+# --- 빌드 / 배포 ---
+dist/
+build/
+*.egg-info/
+
+# --- 테스트 ---
+.coverage
+htmlcov/
+pytest_cache/
+
+# --- 기타 ---
+*.bak
+*.tmp
